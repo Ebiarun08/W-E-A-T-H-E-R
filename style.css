@@ -124,6 +124,7 @@ body{
         width: 30px;
         height: 30px;
         border-radius: 0;
+        padding:5px;
     }
     .col{
         margin-left: 8px;
