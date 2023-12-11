@@ -12,7 +12,7 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg,#00feba,#5b548a);
+    background: linear-gradient(135deg,#965bdf,#e68073);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -38,9 +38,9 @@ body{
     font-size: 18px;
 
 }
-/* .weather{
+.weather{
     display: none;
-} */
+}
 .search button{
     border: 0;
     outline: 0;
@@ -119,13 +119,24 @@ body{
         margin-left: 0;
         height: 30px;
         border-radius: 0;
+        background: transparent;
+        border-bottom: 2px solid white;
+        color: #fff;
+        font-weight: 700;
+    
+    }
+    ::placeholder{
+        color: #fff;
+        font-weight: 700;
     }
     .search button{
         width: 30px;
         height: 30px;
-        border-radius: 0;
-        padding:5px;
+        border-radius: 8px;
+        background: transparent;
+
     }
+    
     .col{
         margin-left: 8px;
     }
@@ -134,7 +145,7 @@ body{
         margin-right: 5px;
     }
     .humidity, .wind{
-        font-size: 18px;
+        font-size: 14px;
         margin-top: -6px;
     }
 }
